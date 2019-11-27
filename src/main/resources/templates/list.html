@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="text-align: center;font-size: 30px">
+    <li style="list-style: none" >
+        <ul th:each="lottery:${lottery}" style="list-style: none" th:text="${lottery[0]}+','+${lottery[1]}+','+${lottery[2]}+','+${lottery[3]}+','+${lottery[4]}+','+${lottery[5]}+','+${lottery[6]}"></ul>
+    </li>
+</div>
+</body>
+</html>
