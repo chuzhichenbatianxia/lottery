@@ -31,4 +31,10 @@ public class LotteryController {
         return "list";
     }
 
+    @GetMapping("/gaobai")
+    public String gaobai(HttpServletRequest request){
+
+        return "gaobai";
+    }
+
 }
